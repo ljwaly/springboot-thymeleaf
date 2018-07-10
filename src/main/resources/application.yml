@@ -1,0 +1,15 @@
+server:
+  port: 8888 
+
+spring: 
+  thymeleaf: 
+    cache: false
+    mode: html
+   # prefix: /
+  activemq: 
+    in-memory: true
+    pool: 
+      enabled: false
+    broker-url: tcp://192.168.1.210:9876
+    user: admin   
+    password: admin
